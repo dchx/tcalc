@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Time Angle calculator</title>
+<link rel="shortcut icon" href="../favicon.ico">
+</head>
+<h2>Time/Angle Calculator</h2>
+<body>
+Please enter time/angle calculation<br>
+Time/angle format: hh:mm:ss.ss or dd:mm:ss.ss<br>
+Operators: + or -<br>
+Example:<br>
+11:49:29.3 - 11:45:48.4<br>
+45:45:48 + 150:49:29<br>
+<input id='tcalcstrid' type='text' name='tcalcstr'><br>
+<button type='button' onclick="document.getElementById('demo').innerHTML = calc_time(document.getElementById('tcalcstrid').value)">Calculate</button>
+<p id='demo'></p>
+<script src="tcalc.js"></script>
+</body>
+</html>
